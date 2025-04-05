@@ -1,0 +1,27 @@
+* {
+    text-align: center;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+select {
+    margin-right: 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.cell {
+    width: 5vw;
+    height: 5vw;
+    border: 1px solid black;
+}
+
+.cube {
+    width: 3vw;
+    height: 3vw;
+    border: .5vw solid black;
+    margin: .5vw;
+}
